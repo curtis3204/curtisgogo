@@ -1,3 +1,7 @@
-# curtisgogo.com
+# 🌎 Personal Website for Curtis Wang
+<br>
 
-### shun-yu's personal website
+## 👉 https://www.curtisgogo.com/
+#### BTW, I'm still modifying... lol
+
+
