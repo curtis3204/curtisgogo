@@ -480,10 +480,14 @@ main {
   font-size: var(--fs-6);
   padding: 20px 7px;
   transition: color var(--transition-1);
+
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--light-gray-70); }
+.navbar-link:focus { 
+  color: var(--light-gray-70); 
+  outline: none;
+}
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
