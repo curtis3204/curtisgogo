@@ -314,6 +314,10 @@ main {
   #SIDEBAR
 \*-----------------------------------*/
 
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
