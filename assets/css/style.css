@@ -74,7 +74,7 @@
    */
 
   /* font-family */
-  --ff-poppins: 'Poppins', sans-serif;
+  --ff-poppins: 'Rubik', sans-serif;
 
   /* font-size */
   --fs-1: 24px;
@@ -228,7 +228,7 @@ article.active {
   text-transform: capitalize;
 }
 
-.h2 { font-size: var(--fs-1); }
+.h2 { font-size: var(--fs-2); }
 
 .h3 { font-size: var(--fs-2); }
 
@@ -301,22 +301,22 @@ article.active {
 \*-----------------------------------*/
 
 main {
-  margin: 15px 12px;
+  margin: 40px 30px;
   margin-bottom: 75px;
   min-width: 259px;
 }
 
 
-
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
 
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
 
-* {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+
 
 .sidebar {
   margin-bottom: 15px;
@@ -342,8 +342,8 @@ main {
 
 .info-content .name {
   color: var(--white-2);
-  font-size: var(--fs-3);
-  font-weight: var(--fw-500);
+  font-size: var(--fs-1);
+  font-weight: var(--fw-600);
   letter-spacing: -0.25px;
   margin-bottom: 10px;
 }
@@ -482,6 +482,7 @@ main {
 .navbar-link {
   color: var(--light-gray);
   font-size: var(--fs-6);
+  font-weight: var(--fw-600);
   padding: 20px 7px;
   transition: color var(--transition-1);
 
@@ -502,7 +503,13 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
-.about .article-title { margin-bottom: 15px; }
+.about { 
+  margin-bottom: 15px; 
+  font-size: var(--fs-6);
+
+}
+
+.article-title { margin-bottom: 15px; }
 
 .about-text {
   color: var(--light-gray);
@@ -522,6 +529,17 @@ main {
 .service { margin-bottom: 35px; }
 
 .service-title { margin-bottom: 20px; }
+
+/* .service-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background: var(--text-gradient-yellow);
+  border-radius: 3px;
+} */
 
 .service-list {
   display: grid;
